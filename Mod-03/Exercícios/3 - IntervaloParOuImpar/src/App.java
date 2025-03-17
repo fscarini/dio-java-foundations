@@ -23,7 +23,7 @@ public class App {
 
         switch (selector) {
             case 1 ->  {
-                for (int i = initialNumber; i < finalNumber; i++) {
+                for (int i = finalNumber; i < finalNumber; i--) {
                     if (i % 2 == 0) {
                         System.out.println(i);
                     }
@@ -31,7 +31,7 @@ public class App {
             }
 
             case 2 ->  {
-                for (int i = initialNumber; i < finalNumber; i++) {
+                for (int i = finalNumber; i < finalNumber; i--) {
                     if (i % 2 != 0) {
                         System.out.println(i);
                     }
